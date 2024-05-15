@@ -1,0 +1,19 @@
+*{
+    background-image: url(bhoo.jpeg);
+    background-position: 500px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+h1{
+    color:#4330f2;
+    
+    background-color: yellow;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+body{
+    color: white;
+    text-align: center;
+    
+    
+}

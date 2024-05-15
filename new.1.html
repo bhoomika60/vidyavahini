@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text " name="" id="" placeholder="Enter your name">
+    <button type="submit" id="submit" onclick="result()">CHECK</button>
+    <p id="result"></p>
+
+    <script>
+        function result(){
+        const name = document.getElementById("name");
+        var  marks = Math.random()*100;
+        var result = document.getElementById("result");
+
+     if(marks >0<35){
+        result.innerHTML = "your result is Fail";
+        
+      } if (marks==35){
+        result.innerHTML = "your are  just pass";
+
+      } else if (marks >35&&marks<50){
+        result.innerHTML = "  you have passed with second class";
+
+      } else if(marks >50&&marks<70){
+        result.innerHTML = " you have passed with first class";
+      }else if (marks >71&&maeks<100){
+        result.innerHTML = "you have passed with distinction";
+      }
+    }
+    </script>
+    
+</body>
+</html>

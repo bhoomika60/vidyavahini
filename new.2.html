@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result prediction</title>
+    <link rel="stylesheet" href="2.style.css">
+</head>
+<body>
+    <h1>Result prediction</h1>
+     <input type="text " name="" id="" placeholder="Enter your name">
+    <input type="text " name="" id="" placeholder="Enter your crush name"> 
+    <button type="submit" id="submit" onclick="result()">CHECK</button>
+    <p id="result"></p>
+
+    <script>
+        function result(){
+        const name = document.getElementById("name");
+        const crush = document.getElementById("crush");
+        var  marks = Math.random()*100;
+        var result = document.getElementById("result");
+        
+      result.innerHTML = "probability of getting relationship is"+""+marks;
+        }
+      </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
